@@ -1,11 +1,5 @@
-nodejs-ci-project
-├── src
-│   └── sum.js
-├── tests
-│   └── sum.test.js
-├── .github
-│   └── workflows
-│       └── ci.yml
-├── package.json
-├── jest.config.js
-└── README.md
+const sum = require('./sum');
+
+test('adds 1 + 2 to equal 3', () => {
+  expect(sum(1, 2)).toBe(3);
+});
