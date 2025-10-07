@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-ci-project",
+  "version": "1.0.0",
+  "description": "A simple Node.js application with CI setup using Jest for testing.",
+  "main": "src/sum.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
